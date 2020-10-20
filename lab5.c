@@ -29,4 +29,22 @@
    return choice;
  }
 
- 
+void oddEvenZero(int theNum)
+{
+ int odd = 0;
+ int even = 0;
+ int zero = 0;
+
+ do
+ {
+  int rem = theNum % 10;
+  if (rem == 0)
+   zero++;
+  else if (rem % 2 == 0)
+   even++;
+  else
+   odd++;
+  theNum = theNum / 10;
+ }while (theNum > 0);
+ printf("There are %d odd numbers, %d even numbers and %d zeros\n", odd, even, zero);
+}

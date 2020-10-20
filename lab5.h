@@ -6,6 +6,7 @@
   
 int readPosNum();
 int menu();
+void oddEvenZero(int theNum);
   
 #endif
 
