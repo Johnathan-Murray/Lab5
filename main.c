@@ -10,7 +10,7 @@ int main()
   
   do
   {
-    choice = menu();/*
+    choice = menu();
     
     switch(choice)
     {
@@ -18,7 +18,7 @@ int main()
               break;
       
       case 2: oddEvenZero(theNum);
-              break;
+              break;/*
 
       case 3: printPrimes(theNum);
               break;
@@ -26,11 +26,11 @@ int main()
       case 4: printReverse(theNum);
               break;
       
-      case 5: printf("Good Bye\n");         
+      case 5: printf("Good Bye\n");  */       
     }// end switch
     
   }while(choice != 5);
-  */
+  
   return 0;
   
 }// end main

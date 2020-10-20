@@ -5,6 +5,7 @@
 #include<stdlib.h>
   
 int readPosNum();
+int menu();
   
 #endif
 
