@@ -48,3 +48,24 @@ void oddEvenZero(int theNum)
  }while (theNum > 0);
  printf("There are %d odd numbers, %d even numbers and %d zeros\n", odd, even, zero);
 }
+
+void printPrimes(int theNum)
+{
+ for (int counter = 2; counter <= theNum; counter++) 
+ {
+  int isPrime = 1;
+  for (int lower = 2; lower < counter; lower++) 
+  {
+    if (counter % lower == 0) 
+      isPrime = 0;
+  }
+  if (isPrime == 1)
+   printf("%d ", counter);
+ }
+ printf("\n");
+}
+
+void printReverse(int theNum)
+{
+  
+}

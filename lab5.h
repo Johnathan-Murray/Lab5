@@ -7,6 +7,8 @@
 int readPosNum();
 int menu();
 void oddEvenZero(int theNum);
+void printPrimes(int theNum);
+void printReverse(int theNum);
   
 #endif
 
