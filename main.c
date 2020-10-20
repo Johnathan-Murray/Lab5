@@ -10,7 +10,7 @@ int main()
   
   do
   {
-    choice = menu();
+    choice = menu();/*
     
     switch(choice)
     {
@@ -30,7 +30,7 @@ int main()
     }// end switch
     
   }while(choice != 5);
-  
+  */
   return 0;
   
 }// end main
